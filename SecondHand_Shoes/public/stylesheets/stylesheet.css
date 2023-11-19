@@ -1,0 +1,405 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+/* .container, .container-c, .container-n {
+    width: 90%;
+    margin: 0 auto 0 auto;
+} */
+
+/* .container-main {
+    max-width: 1595px;
+    margin: 0 auto;
+   
+} */
+
+
+.header {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.modal-body {
+    font-size: 15px;
+}
+
+.modal-title {
+    font-size: 20px;
+}
+
+.reserve {
+    margin-top: 10px;
+    font-size: 20px;    
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    padding: 0 16px;
+
+}
+
+
+.brand {
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: larger;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon {
+    width: max-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-search,
+.btn-ig,
+.btn-fb,
+.btn-line {
+    color: darkgray;
+    margin: 0 5px 0 2px;
+}
+
+
+.show, .show1, .show2 {
+    font-size: 30px;
+    margin: 5px 0 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.show2 {
+    padding-left: 10px;
+    border: 20px 0;
+}
+
+.show, .title, .af {
+    margin-top: 70px;
+}
+
+
+
+h5, h4 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.info {
+    background-color:darkgray;
+    color: white;
+    font-size: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.price {
+    font-size: 25px;
+}
+
+.footer-title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.wrapper,
+.wrapper-1,
+.wrapper-2,
+.wrapper-nike,
+.wrapper-ad,
+.wrapper-fashion {
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 16px;
+
+}
+
+.wrapper-sample {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 16px;
+}
+
+.card {
+    margin: 10px 5px;
+    position: relative;
+    max-width:100%;
+    height:auto;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.card-1, .card-2 {
+    margin: 20px 5px;
+    position: relative;
+    max-width:100%;
+    height:auto;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+
+.card-footer {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+img {
+    position: relative;
+    max-width: 100%;
+    height: 280px;
+}
+
+.wrapper-footer {
+    border-top: 2px solid #999999;
+    width: 90%;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);    
+    grid-gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.about,
+.serve,
+.contact {
+    padding: 30px;
+    text-align: center;
+}
+
+
+
+
+
+.swiper-slide {
+    width: 300px !important;
+    margin-right: 0 !important;
+}
+
+.swiper-button-next {
+    margin-top: 100px;
+    background-image: url(https://bruce-fe-fb.web.app/image/right-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: center;
+    border-radius: 9999px;
+    background-color: #3e4042;
+    width: 36px !important;
+    height: 36px !important;
+    top: 29px !important;
+}
+
+.swiper-button-next::after {
+    display: none;
+}
+
+.swiper-button-prev { 
+    margin-top: 100px; 
+    background-image: url(https://bruce-fe-fb.web.app/image/left-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: center;
+    border-radius: 9999px;
+    background-color: #3e4042;
+    width: 36px !important;
+    height: 36px !important;
+    top: 29px !important;
+}
+
+.swiper-button-prev::after {
+    display: none;
+}
+
+.swiper-button-disabled {
+    opacity: 0 !important;
+}
+
+.blazzer-title {
+    display: flex;
+    justify-content: center;
+}
+
+.blazzer-title {
+    padding: 30px;
+}
+
+.blazzer-info, .deliver, .pay {
+    margin: 20px 0;
+}
+
+.sample1 {
+    padding: 50px 0 50px 0;
+    display: flex;
+
+}
+
+@media screen and (min-width: 576px) {
+
+    
+    .card {
+        margin: 50px 20px;
+        position: relative;
+        max-width:100%;
+        height:auto;
+        cursor: pointer;
+        overflow: hidden;
+    }
+
+    .wrapper {
+        display: grid;
+        max-width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 20px 30px;
+    
+    }
+}
+
+/* 
+@media screen and (min-width: 576px) {
+    .modal-body {
+        font-size: 15px;
+    }
+    
+    .modal-title {
+        font-size: 20px;
+    }
+    
+    .container-main {   
+        width: 90%;
+        margin: 0 auto 0 auto;
+    }
+
+    .wrapper, .wrapper-1, .wrapper-2,
+    .wrapper-nike,
+    .wrapper-ad,
+    .wrapper-fashion{
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 200px 200px; 
+    }
+    
+    .wrapper-sample {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 16px;
+    }
+
+    .footer {
+        padding-left: 70px;
+        display: grid;
+        width: 100%;
+        grid-template-columns: 200px;
+        align-items: center;
+        text-align: center;
+    }
+
+} */
+
+/* @media screen and (min-width: 768px) {
+    .navbar-brand {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modal-body {
+        font-size: 20px;
+    }
+    
+    .modal-title {
+        font-size: 25px;
+    }
+
+
+    .wrapper, .wrapper-1, .wrapper-nike, .wrapper-ad, .wrapper-fashion
+     { 
+        grid-template-columns: repeat(2, 250px);
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    } */
+
+    /* .wrapper-nike
+    {
+       
+       padding-left: 570px;
+       grid-template-columns: repeat(2, 250px);
+       width: 100%;
+       justify-content: center;
+       text-align: center;
+   }
+
+    .wrapper-ad, .wrapper-fashion {
+        
+        padding-left: 705px;
+        grid-template-columns: repeat(5, 250px);
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    } */
+/* 
+    .wrapper-sample {
+        padding-left: 570px;
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(3, 250px);
+        grid-gap: 30px;
+        justify-content: center;
+        text-align: center;
+    }
+
+   
+
+    .wrapper-2 {
+        
+        padding-left: 490px;
+        grid-template-columns: repeat(2, 250px);
+        justify-content: center;
+        text-align: center;
+    }
+
+    .wrapper-footer {
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+
+    .serve, .contact {
+        margin-bottom: 40px;
+    }
+} */
